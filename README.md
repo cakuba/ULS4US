@@ -93,7 +93,7 @@ you should observe some outputs as below
 ```
 you should find the predictions for the sample test data saved as PNG files in the sub-directory 'pred'. 
 
-And congratulations, you have just used ULS4US for your own data!
+And congratulations, you have just used ULS4US for your own data! Also, we have prepared some sample test data in the directory `data/all_mixed` and provided the predictions of ULS4US for these test data in the directory `pred`. Please feel free to let us know if you have any questions.
 
 ## Who are we?
 
