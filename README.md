@@ -70,14 +70,14 @@ The performance of ULS4US is assessed in a unified dataset consisting of two pub
            test_data_dir = ./data/breastUS/test
            data_name = breast
   
-- in the same directory, update the file `training.conf` and replace the value of the key 'dataset' as `breast` under the section **[ULS4US]** (NOTE: this corresponds to the same value of the key 'data_name' in the file `dataset.conf` 
+- in the same directory, update the file `training.conf` by replacing the value of the key 'dataset' to `breastUS` under the section **[ULS4US]** (NOTE: this corresponds to the section name in the file `dataset.conf` 
 
 4. start training
 ```Bash
    python ULS4US.py
 ```
 
-Most of the training hyperparameters can be changed in the file `training.conf` under the section **[ULS4US]**
+Most of the training hyperparameters can be defined in the file `training.conf` under the section **[ULS4US]**
 
 5. performance evaluation of ULS4US
 ```Bash
